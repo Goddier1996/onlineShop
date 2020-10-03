@@ -133,8 +133,8 @@ body {
 }
 
 .info img {
-    width: 11vh;
-    height: 11vh;
+    width: 10vh;
+    height: 10vh;
     cursor: pointer;
 }
 
@@ -255,7 +255,7 @@ body {
 /*תפריט*/
 .menu {
     height: auto;
-    background: rgb(243, 247, 59);
+    background: url(images/template_main.jpg);
     border-radius: 15%;
     position: relative;
     margin-bottom: -8px;
@@ -266,7 +266,7 @@ body {
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    border: 3px solid rgb(255, 255, 255);
+    border: 4px solid rgb(255, 255, 255);
     border-radius: 15%;
 }
 
@@ -305,7 +305,7 @@ body {
 
     .hamburger {
         background: rgb(243, 247, 59);
-        border: 3px solid rgb(190, 190, 190);
+        border: 4px solid rgb(255, 255, 255);
         border-radius: 25%;
         margin-top: -4%;
         position: absolute;
@@ -319,7 +319,7 @@ body {
 
     .links {
         position: fixed;
-        background: rgb(255, 240, 158);
+        background: url(images/template_main.jpg);
         border-radius: 20% 40% 5%;
         height: auto;
         width: 100%;
@@ -580,9 +580,10 @@ body {
 
 
 
+
 /*/ דף קשר פןפ אפ/*/
 #ButtonContact2 {
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     outline: none;
     font-size: 24px;
@@ -599,15 +600,18 @@ body {
     transition: all 0.2s ease-in;
 }
 
-.modal {
-    background: plum;
-}
 .Phone p {
     margin-top: 10%;
     font-family: "Luckiest Guy", cursive;
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
+}
+
+.modal {
+    background: url(images/template_main.jpg);
+    background-size: cover;
+
 }
 
 #ButtonContact2:after {
@@ -687,14 +691,16 @@ body {
 }
 
 .form-button {
+    text-decoration: none;
+    font-weight: bold;
     width: 100%;
     padding: 10px;
-    color: #00a7ee;
+    color: #ffffff;
     margin-top: 10px;
     max-width: 400px;
     text-align: center;
-    border: solid 1px white;
-    background-color: white;
+    border: solid 2px white;
+    background-color: rgb(255, 194, 103);
     -webkit-transition: color 0.2s ease-in, background-color 0.2s ease-in;
     -moz-transition: color 0.2s ease-in, background-color 0.2s ease-in;
     -ms-transition: color 0.2s ease-in, background-color 0.2s ease-in;
@@ -719,14 +725,14 @@ body {
 
 .input-group input {
     width: 100%;
-    color: white;
+    color: rgb(134, 134, 134);
     border: none;
     outline: none;
     padding: 5px 0;
     line-height: 1;
     font-size: 16px;
     font-family: 'Raleway';
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px rgb(151, 151, 151);
     background-color: transparent;
     -webkit-transition: box-shadow 0.2s ease-in;
     -moz-transition: box-shadow 0.2s ease-in;
@@ -765,7 +771,7 @@ body {
 
 /*/  כניסה משתמש פןפאפ /*/
 #ButtonLogin1 {
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     outline: none;
     font-size: 24px;
@@ -847,6 +853,7 @@ body {
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
+
 
 
 
@@ -1244,7 +1251,6 @@ body {
 
 
 
-
 /*פןפ אפ סל קניות*/
 .cartBox {
     position: fixed;
@@ -1278,8 +1284,8 @@ body {
     position: relative;
     height: 25vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 5px solid rgb(65, 59, 54);
+    background: url(images/template_main.jpg);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 2%;
     background-size: cover;
     display: flex;
@@ -1355,10 +1361,7 @@ body {
 
 
 
-
-
-
-/*פןפ אפ סל קניות*/
+/*פןפ אפ סל  מועדפיםת*/
 .cartBoxXX {
     position: fixed;
     right: 23%;
@@ -1372,7 +1375,7 @@ body {
     transform: scale(0);
 }
 
-.cartVV p{
+.cartVV p {
     font-size: 30px;
     color: white;
 }
@@ -1397,8 +1400,8 @@ body {
     position: relative;
     height: 25vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 5px solid rgb(65, 59, 54);
+    background: url(images/template_main.jpg);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 2%;
     background-size: cover;
     display: flex;
@@ -1423,6 +1426,17 @@ body {
     font-family: "Luckiest Guy", cursive;
 }
 
+.closeZ {
+    cursor: pointer;
+    background: red;
+    border-radius: 50%;
+    width: 7%;
+    margin-top: 2%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
 
 .cartVV table a {
     background: rgb(255, 0, 0);
@@ -1432,7 +1446,7 @@ body {
     font-size: 16px;
 }
 
-.cartVV img{
+.cartVV img {
     width: 40px;
     height: 40px;
 }
@@ -1453,7 +1467,6 @@ body {
 .ss {
     color: darkcyan;
     font-size: 15px;
-
 }
 
 .vv {
