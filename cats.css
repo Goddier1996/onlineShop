@@ -251,14 +251,16 @@ body {
 }
 
 
-
 /*תפריט*/
 .menu {
     height: auto;
     background: url(images/template_main.jpg);
-    border-radius: 15%;
+    border-radius: 5%;
     position: relative;
     margin-bottom: -8px;
+    -webkit-box-shadow: 0px -200px 80px 0px rgba(255, 238, 0, 0.3);
+    -moz-box-shadow: 0px -200px 80px 0px rgba(255, 238, 0, 0.3);
+    box-shadow: 0px -200px 80px 0px rgba(255, 238, 0, 0.3);
 }
 
 .links {
@@ -385,6 +387,9 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-bottom: 3%;
+    -webkit-box-shadow: 14px 31px 91px -38px rgba(255, 242, 0, 0.47);
+    -moz-box-shadow: 14px 31px 91px -38px rgba(255, 242, 0, 0.47);
+    box-shadow: 14px 31px 91px -38px rgba(255, 242, 0, 0.47);
 }
 
 .info12 h1 {
@@ -1537,7 +1542,9 @@ body {
 .ProtuctColorPage {
     background: white;
     border-radius: 3%;
-    border: 20px solid wheat;
+    -webkit-box-shadow: 0px 0px 74px 80px rgba(255, 238, 0, 0.1);
+    -moz-box-shadow: 0px 0px 74px 80px rgba(255, 238, 0, 0.1);
+    box-shadow: 0px 0px 74px 80px rgba(255, 238, 0, 0.1);
 }
 
 .BoxCards {
