@@ -1540,11 +1540,10 @@ body {
 /*/ תבניות של מוצרים בקטגוריה/*/
 
 .ProtuctColorPage {
-    background: white;
-    border-radius: 3%;
-    -webkit-box-shadow: 0px 0px 74px 80px rgba(255, 238, 0, 0.1);
-    -moz-box-shadow: 0px 0px 74px 80px rgba(255, 238, 0, 0.1);
-    box-shadow: 0px 0px 74px 80px rgba(255, 238, 0, 0.1);
+    background: rgba(255, 238, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 300px 150px rgba(255, 238, 0, 0.1);
+    -moz-box-shadow: 0px 0px 300px 150px rgba(255, 238, 0, 0.1);
+    box-shadow: 0px 0px 300px 150px rgba(255, 238, 0, 0.1);
 }
 
 .BoxCards {
@@ -1557,10 +1556,11 @@ body {
     font-family: "Oswald", Arial, sans-serif;
     position: relative;
     margin: 25px auto;
-    width: 220px;
+    width: 230px;
     height: auto;
-    background: #ffffff;
-    border-radius: 10%;
+    background: url(images/template_main.jpg);
+    border-radius: 12%;
+    border: 5px solid white;
     text-align: center;
     color: #000000;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -1617,7 +1617,7 @@ body {
     letter-spacing: 1px;
     font-family: "Luckiest Guy", cursive;
     margin-top: -8%;
-    color: #38ef7d;
+    color: green;
 }
 
 
@@ -1630,9 +1630,8 @@ body {
 .snip1423 a.add-btn {
     margin-top: 5%;
     background-color: #444;
-    color: rgb(236, 120, 43);
-
-    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
     display: inline-block;
     font-size: 14px;
     padding: 8px 20px;

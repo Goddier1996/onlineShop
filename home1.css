@@ -604,12 +604,12 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 1.5%;
+    padding: 1%;
     float: left;
     overflow: hidden;
     cursor: default;
-    border-radius: 4%;
-    border: 10px solid wheat;
+    border-radius: 5%;
+    border: 6px solid wheat;
 }
 
 .overlay1 a p {
@@ -647,7 +647,7 @@ body {
     transition: all 0.35s;
     width: 100%;
     height: auto;
-    border-radius: 2%;
+    border-radius: 5%;
 }
 
 .hovereffect1:hover img {
