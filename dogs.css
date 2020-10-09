@@ -376,7 +376,7 @@ body {
 
 .info12 {
     margin-top: 1%;
-    background:url(images/dogPro.png) no-repeat center center;
+    background: url(images/dogPro.png) no-repeat center center;
     background-size: cover;
     border-radius: 10%;
     height: 56vh;
@@ -1519,7 +1519,7 @@ body {
 
 .bacImage {
     background: url(images/ds.jpg);
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
     height: 15vh;
@@ -1529,6 +1529,15 @@ body {
 
 
 /*/ תבניות של מוצרים בקטגוריה/*/
+
+
+.ProtuctColorPage {
+    background: white;
+    border-radius: 3%;
+    border: 20px solid wheat;
+}
+
+
 .BoxCards {
     display: flex;
     justify-content: space-evenly;
@@ -1654,17 +1663,20 @@ a.add-btn:hover {
     border-radius: 50%;
     position: relative;
 }
-.bacImage1 img{
+
+.bacImage1 img {
     margin-top: -2.8%;
     left: 10%;
     position: absolute;
     width: auto;
     height: 15vh;
 }
+
 @media only screen and (max-width: 748px) {
-    .bacImage1 img{
+    .bacImage1 img {
         margin-top: -8%;
     }
+
     .bacImage1 {
         margin-bottom: 6%;
     }
