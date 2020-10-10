@@ -1482,9 +1482,7 @@ h3 {
     background-image: url("images/parrot26.jpg");
     background-size: cover;
     background-position: center top;
-    -webkit-box-shadow: 14px 31px 91px -38px rgba(255,242,0,0.47);
--moz-box-shadow: 14px 31px 91px -38px rgba(255,242,0,0.47);
-box-shadow: 14px 31px 91px -38px rgba(255,242,0,0.47);
+    border: 10px solid rgb(255, 225, 170);
 }
 
 .bg {
@@ -1833,7 +1831,7 @@ input[type="number"]::-webkit-outer-spin-button {
     transform: scale(0);
 }
 
-.cartVV p{
+.cartVV p {
     font-size: 30px;
     color: white;
 }
@@ -1893,7 +1891,7 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: 16px;
 }
 
-.cartVV img{
+.cartVV img {
     width: 40px;
     height: 40px;
 }
