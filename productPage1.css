@@ -1482,12 +1482,12 @@ h3 {
     background-image: url("images/parrot26.jpg");
     background-size: cover;
     background-position: center top;
-    border: 10px solid rgb(255, 225, 170);
+    border: 3px solid gainsboro;
 }
 
 .bg {
-    height: 40vh;
-    width: 40%;
+    height: 45vh;
+    width: 45%;
 }
 
 .product-info h1 {
@@ -1946,17 +1946,18 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .cardd {
-    width: 180px;
+    width: 200px;
     height: 280px;
     background: #f4f4f4;
     position: relative;
-    border-radius: 10px;
+    border-radius: 10%;
     box-shadow: 0;
     transform: scale(0.95);
     transition: box-shadow .5s ease-in-out,
         transform .5s ease-in-out;
     overflow: hidden;
     margin: 1%;
+    border: 5px solid rgb(255, 255, 241);
 }
 
 .cardd:hover {
