@@ -378,10 +378,10 @@ body {
 
 
 .info12 {
-    margin-top: 1%;
+    margin-top: 2%;
     background: url(images/dogPro.png) no-repeat center center;
     background-size: cover;
-    border-radius: 10%;
+    border-radius: 2%;
     height: 56vh;
     width: 100%;
     display: flex;

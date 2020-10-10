@@ -1623,17 +1623,16 @@ h3 {
 }
 
 .product-image .bg {
-    border-radius: 15%;
+    border-radius: 10%;
     margin-top: 10%;
     background-image: url("images/qw3.jpg");
     background-size: cover;
     background-position: center top;
-    border: 3px solid gainsboro;
 }
 
 .bg {
-    height: 45vh;
-    width: 45%;
+    height: 42vh;
+    width: 42%;
 }
 
 .product-info h1 {
